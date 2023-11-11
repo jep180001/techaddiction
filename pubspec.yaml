@@ -1,10 +1,10 @@
-name: techaddiction
+name: tech_addict
 
 description: A new Flutter project.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-homepage: https://jep180001.github.io/techaddiction/
+homepage: https://jep180001.github.io/tech_addict/
 
 version: 0.0.1+1
 
