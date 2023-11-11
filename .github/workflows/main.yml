@@ -21,6 +21,10 @@ jobs:
       - name: Build Web
         run: flutter build web
 
+      - name: Check Flutter Doctor
+        run: flutter doctor
+
+
   deploy:
     runs-on: ubuntu-latest
 
@@ -35,3 +39,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build/web
+          
